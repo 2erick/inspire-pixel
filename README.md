@@ -1,18 +1,39 @@
-# Vue 3 + TypeScript + Vite
+# InspirePixel --- Galeria de Inspiração Visual
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Projeto desenvolvido em **Vue 3**, com foco em fornecer uma experiência
+rápida e organizada para quem busca referências visuais.
 
-## Recommended IDE Setup
+## ✨ Sobre o Projeto
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+A InspirePixel nasceu da necessidade de encontrar imagens de referência
+de forma simples, rápida e sem navegar em vários sites diferentes.
 
-## Type Support For `.vue` Imports in TS
+Este projeto apresenta uma página web funcional e responsiva que exibe
+uma galeria de inspirações visuais consumindo a API pública do **Lorem
+Picsum**.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 🧠 Objetivo
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Criar uma solução moderna e intuitiva para facilitar a busca de imagens
+inspiradoras, seguindo (ou reinterpretando) o protótipo proposto no
+Figma.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 🛠️ Tecnologias Utilizadas
+
+- **Vue 3**
+- **Axios**
+- **SASS (SCSS)**
+- **Lorem Picsum API** (https://picsum.photos/)
+
+## 🚀 Funcionalidades
+
+- Galeria dinâmica de fotos
+- Consumo da API para carregar imagens aleatórias
+- Layout responsivo
+
+## 📦 Como executar
+
+```bash
+npm install
+npm run dev
+```
